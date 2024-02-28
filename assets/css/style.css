@@ -1,0 +1,85 @@
+@font-face {
+  font-family: "montserrat";
+  src: url("../fonts/Montserrat-Regular.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "montserrat";
+  src: url("../fonts/Montserrat-Bold.ttf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "montserrat";
+  src: url("../fonts/Montserrat-Bold.ttf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "fraunces";
+  src: url("../fonts/Fraunces_9pt-Bold.ttf");
+  font-weight: 700;
+}
+
+:root {
+  /*primary*/
+  --darkCyan: hsl(158, 36%, 37%);
+  --darkedCyan: hsl(158, 36%, 20%);
+  --cream: hsl(30, 38%, 92%);
+
+  /*neutral*/
+  --veryDarkBlue: hsl(212, 21%, 14%);
+  --darkGrayishBlue: hsl(228, 12%, 48%);
+  --white: hsl(0, 0%, 100%);
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 14px;
+  font-family: montserrat, sans-serif;
+  font-weight: 400;
+  color: var(--darkGrayishBlue);
+}
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+img {
+  object-fit: cover;
+}
+
+ul {
+  list-style: none;
+}
+
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+
+
+.footer {
+  padding: 20px;
+}
